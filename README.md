@@ -1,0 +1,1 @@
+These are first draft versions of some projects I coded while learning python. Many of them are tasks from the App Brewery course "100 Days of Code - The Complete Pro Bootcamp". I plan to revisit these soon.
