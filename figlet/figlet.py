@@ -1,6 +1,8 @@
 #############################
 # Project as assigned in Harvard/edX 2023 CS50:
 # https://cs50.harvard.edu/x/2023/problems/6/figlet/
+# Code uses figlet python port from:
+# https://pypi.org/project/pyfiglet/0.7/
 ####################################################
 
 import sys
@@ -28,17 +30,19 @@ if args > 0:
 else:
     index = randint(1, len(FigletFont.getFonts()))
     font = font_list[index]
+    random_font = True
 
-# TODO: validate font choice
+# Validate font choice
 if not font in font_list:
     print("Invalid font choice")
     sys.exit()
 
-
-# print(f"font = {font}") #print for debugging
 
 # Prints input in selected font
 f = Figlet(font=font)
 
 text = f.renderText(input("Input: "))
 print(f"Output:\n{text}")
+#prints name of font if randomly assigned
+if random_font:
+    print(f"font = {font}")
