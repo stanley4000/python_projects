@@ -1,8 +1,8 @@
 #############################
-# Project as assigned in Harvard/edX 2023 CS50:
-# https://cs50.harvard.edu/x/2023/problems/6/figlet/
-# Code uses figlet python module from:
-# https://pypi.org/project/pyfiglet/0.7/
+ Project as assigned in Harvard/edX 2023 CS50:
+ https://cs50.harvard.edu/x/2023/problems/6/figlet/
+ Code uses figlet python module from:
+ https://pypi.org/project/pyfiglet/0.7/
 ####################################################
 
 This program converts any input text to ascii text using the figlet python module. It was developed using Python 3.11.
@@ -13,7 +13,9 @@ If the program is run with no arguments and a random font is assigned, the name 
 
 # Use case
 $python3 figlet.py -f <"font_name">
+
 OR
+
 $python3 figlet.py
 
 Input: <"text to be formatted">
