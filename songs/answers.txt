@@ -1,0 +1,11 @@
+1. If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+If these songs represented the listening habits of one listener, one could assume that the the listener has a high preference for danceable music (with an average danceability score of .716). Based on the average values of energy (.659) and valence (.484), the listener demonstrates a preference for higher-energy music. This might be expressed with an aura description of "high-energy dancer" or similar. 
+
+Since the listener's top 100 tracks happen to correspond highly with the platform's top 100 for the year, one could also assume that the listener prefers mainstream choices that correlate with a track's overall popularity. 
+
+2. Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+It is possible that the energy, valence, and danceability of the tracks in this list are influenced by important background factors such as the listener's favorite artists, the listener's favorite genres, or others. For instance, if the individual is currently infatuated with mumble rap, their average energy score will most likely be lowered. Repeated listening to certain types of music for certain purposes at various points of the day may exist, such as listening to classical piano music while sleeping or high-energy dance music while working out. These types of relationships might be better decsribed and explained using more advanced statistical procedures such as factor analysis or correlational analyses that account for variables such as: time of day, amount of movement of the device. Corrections for the influence of artists (including average scores of the artist's body of work) and genre (including average scores of the genre) could also be taken into account. 
+
+It might also be worthwhile to conduct deeper analyses of the effect of current trends (represented by the overall popularity of artists and genres), as well as the potential effects of marketing and advertising (on and off the platform).
